@@ -270,11 +270,9 @@
 	rank = "special"
 
 /obj/item/kinetic_part/grip/wide/attach(obj/item/weapon/gun/energy/kinetic_accelerator/KA,mob/user)
-	KA.weapon_weight = WEAPON_MEDIUM
 	KA.trigger_guard = TRIGGER_GUARD_ALLOW_ALL
 
 /obj/item/kinetic_part/grip/wide/detach(obj/item/weapon/gun/energy/kinetic_accelerator/KA,mob/user)
-	KA.weapon_weight = WEAPON_LIGHT
 	KA.trigger_guard = TRIGGER_GUARD_NORMAL
 
 /obj/item/kinetic_part/charger/double_shot
